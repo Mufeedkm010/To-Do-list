@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #02060f;
+    padding: 40px;
+    border-radius: 8px;
+    width: 500px;
+    color: white;
+}
+
+.todo {
+    background-color: #09099e;
+    padding: 20px 25px;
+    border-radius: 4px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.task {  
+    margin: 20px;
+    font-size: 25px;
+}
+
+.completed label {
+    color: rgba(131, 127, 127, 0.6);
+    text-decoration: line-through;   
+}
